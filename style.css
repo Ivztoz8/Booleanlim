@@ -1,0 +1,103 @@
+/* file .css della pagine index.html, esercizio per boolean */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-image: url("source/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;   
+    background-size:  cover;
+}
+
+#form {
+    display: inline-flexbox;
+    background-color: rgba(0, 0, 0, .5);
+    width: 790px;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 280px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    position: absolute;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.img {
+    border-spacing: 2%;
+    text-align:center;
+}
+
+#stylefont {
+    font-size: 60%;
+    color:lime;
+    text-align:center;
+}
+
+#colorband {
+    display: inline-flexbox;
+    background-color: lime;
+    width: auto;
+    height: 30px;
+    text-align:center;
+    padding: 5px;
+}
+
+#buttons {
+    display: inline-flexbox;
+    width: auto;
+    text-align:center;
+}
+
+li {
+    color: white;
+    font-size: 70%;
+    padding: 2px;
+}
+
+
+li > div {
+    color: white;
+    font-size: 100%;
+}
+
+.fontw {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Barre colorate */
+
+#colorband0 {
+    display:inline-block;
+    background-color: sandybrown;
+    border-radius: 5px;
+    width: 40%;
+    height: 20px;
+    text-align:center;
+    padding: 5px;
+}
+
+#colorband1 {
+    display:inline-block;
+    background-color: limegreen;
+    border-radius: 5px;
+    width: 60%;
+    height: 20px;
+    text-align:center;
+    padding: 5px;
+}
+
+#colorband2 {
+    display:inline-block;
+    background-color: firebrick;
+    border-radius: 5px;
+    width: 20%;
+    height: 20px;
+    text-align:center;
+    padding: 5px;
+}
